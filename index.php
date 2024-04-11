@@ -21,8 +21,11 @@
             <input type="submit" value="Szukaj">
         </form>
 
-        <!-- przycisk koszyk -->
-        <a href="cart.php" id="cart">Koszyk</a>
+        <!-- przyciski -->
+        <div>
+            <a href="cart.php" id="cart">Koszyk</a>
+            <a href="login.html">Dodaj produkt</a>
+        </div>
     </header>
 
     <main class="flex-container-wrap">
