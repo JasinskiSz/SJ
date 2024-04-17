@@ -7,7 +7,7 @@ $title = $_POST["title"];
 $price = $_POST["price"];
 
 // przygotowanie sql - insert into
-$sql = "INSERT INTO `product` VALUES ($title, $price)";
+$sql = "INSERT INTO `product`(`name`, `price`) VALUES ('$title', $price);";
 
 // sql wykonanie sql
 if($conn->query($sql) === TRUE) {
